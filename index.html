@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="hu">
 
@@ -9,38 +8,54 @@
     <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.gstatic.com"><link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Lato&family=Montserrat&family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Anton&family=Lato&family=Montserrat&family=Open+Sans&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <script src="olt.js"></script>
 </head>
 
 <body>
+    
     <header class="container">
         <div class="row">
-            <div class="col-12">
+            <div class="menu">
                 <h1 class="d-none d-sm-block">Koronavírus info</h1>
+                <li><a href="#vakcinak">Elérhető vakcinák</a></li>
+                <li><a href="#regiszt">Regisztráció</a></li>
+                <li><a href="#hozzaszol">Szólj hozzá!</a></li>
+                <hr>
+                
             </div>
         </div>
     </header>
-    
+
     <main class="container ">
         <article class="row">
             <div class="col-12">
                 <h2>Avagy a Covid-19...</h2>
                 <p>
-                    A Covid19 (koronavírus-betegség 2019, coronavirus disease 2019) egy vírusos, légúti, illetve légzőszervi megbetegedés, amelyet a 
-                    SARS-CoV-2 nevű koronavírus okoz.[3] Az Egészségügyi Világszervezet (WHO) 2020. március 11-én hirdette ki a betegség okozta világjárvány megjelenését.
-                    A betegség okozta halálozás jellemző aránya a WHO szerint (a 2020 márciusi adatok alapján) 3,4%. A specifikusan a koronavírus fertőzés ellen és a betegség 
-                    kezelésére (széles körben elfogadott) hatásos gyógyszer még nemigen áll rendelkezésre, a megelőzését szolgáló védőoltást viszont már több cég is kifejlesztette. 
-                    
+                    A Covid19 (koronavírus-betegség 2019, coronavirus disease 2019) egy vírusos, légúti, illetve
+                    légzőszervi megbetegedés, amelyet a
+                    SARS-CoV-2 nevű koronavírus okoz.[3] Az Egészségügyi Világszervezet (WHO) 2020. március 11-én
+                    hirdette ki a betegség okozta világjárvány megjelenését.
+                    A betegség okozta halálozás jellemző aránya a WHO szerint (a 2020 márciusi adatok alapján) 3,4%. A
+                    specifikusan a koronavírus fertőzés ellen és a betegség
+                    kezelésére (széles körben elfogadott) hatásos gyógyszer még nemigen áll rendelkezésre, a megelőzését
+                    szolgáló védőoltást viszont már több cég is kifejlesztette.
+
                 </p>
-                <p>A vírust a fertőző betegek cseppfertőzéssel terjesztik. A vírus, miután 2019 decemberében járványt okozott, néhány hónapon belül világszerte elterjedt. 
-                    2020 novemberére sikerült létrehozni a koronavírusfertőzés ellen védő, első vakcinákat, amelynek az alapját Karikó Katalin biokémikusnak és munkatársának a szabadalma vetette meg. 
+                <p>A vírust a fertőző betegek cseppfertőzéssel terjesztik. A vírus, miután 2019 decemberében járványt
+                    okozott, néhány hónapon belül világszerte elterjedt.
+                    2020 novemberére sikerült létrehozni a koronavírusfertőzés ellen védő, első vakcinákat, amelynek az
+                    alapját Karikó Katalin biokémikusnak és munkatársának a szabadalma vetette meg.
                     Ez a technológia képezi az alapját a Moderna és a Pfizer–Biontech gyógyszergyártók oltóanyagának.
                 </p>
             </div>
         </article>
+        <section id="vakcinak" class="vakcinak">
         <article class="row">
             <div class="col-12">
                 <h2 id="leggyakoribb">Magyarországon elérhető vakcinák:</h2>
@@ -48,117 +63,209 @@
             <div class="col-sm-6 col-lg-3">
                 <img src="img/pf.jpg" alt="Pfizer/BioNTech vakcina" class="img-fluid img-thumbnail">
                 <h3>Pfizer/BioNTech vakcina</h3>
-                <p>A Pfizer és a BionTech közös fejlesztésű, Comirnaty elnevezésű vakcinája volt az első, amely engedélyt kapott egy nyugati országban, elsőként az Egyesült Államokban.
-                    Az amerikai gyógyszergyártó és a német biotechnológiai cég oltóanyaga az egyik új technológián alapuló harmadik generációs vakcina, úgynevezett mRNS-vakcina. 
-                    A technológiai úgy működik, hogy az mRNS-vakcinát lipid nanorészecskékkel juttatja be a szervezetbe az oltás, ami a bevitelt követően a vírus tüskefehérjéjét készítteti el a sejtjeinkkel, 
-                    így alakítva ki az immunitást...(forrás:<a href="https://portfolio.hu/ " target="_blanc">portfolio.hu</a>) 
+                <p>A Pfizer és a BionTech közös fejlesztésű, Comirnaty elnevezésű vakcinája volt az első, amely
+                    engedélyt kapott egy nyugati országban, elsőként az Egyesült Államokban.
+                    Az amerikai gyógyszergyártó és a német biotechnológiai cég oltóanyaga az egyik új technológián
+                    alapuló harmadik generációs vakcina, úgynevezett mRNS-vakcina.
+                    A technológiai úgy működik, hogy az mRNS-vakcinát lipid nanorészecskékkel juttatja be a szervezetbe
+                    az oltás, ami a bevitelt követően a vírus tüskefehérjéjét készítteti el a sejtjeinkkel,
+                    így alakítva ki az immunitást...(forrás:<a href="https://portfolio.hu/ "
+                        target="_blanc">portfolio.hu</a>)
                 </p>
             </div>
             <div class="col-sm-6 col-lg-3">
                 <img src="img/mo.jpg" alt="Moderna vakcina" class="img-fluid img-thumbnail">
                 <h3>Moderna vakcina</h3>
-                <p>A második nyugati vakcina, amely az Egyesült Államokban, majd Európában engedélyt kapott, az amerikai Moderna vakcinája volt.
-                    A Pfizer vakcinájához hasonlóan a Moderna oltóanyaga is egy mRNS-vakcina. Az mRNA-1273 névre hallgató vakcina készítményt több mint 30 ezer emberen tesztelték. 
-                    A vakcina két dózisú, melyet 28 nap eltéréssel szükséges beadni és a lezajlott fázis 3 klinikai teszt eredményei alapján, a teljes vizsgált populációra nézve 94 százalékos védelmet nyújtott covid-megbetegedés ellen. 
-                    A súlyos megbetegedés ellen 100 százalékban védelmet nyújtott.(forrás:<a href="https://portfolio.hu/ " target="_blanc">portfolio.hu</a>)
+                <p>A második nyugati vakcina, amely az Egyesült Államokban, majd Európában engedélyt kapott, az amerikai
+                    Moderna vakcinája volt.
+                    A Pfizer vakcinájához hasonlóan a Moderna oltóanyaga is egy mRNS-vakcina. Az mRNA-1273 névre
+                    hallgató vakcina készítményt több mint 30 ezer emberen tesztelték.
+                    A vakcina két dózisú, melyet 28 nap eltéréssel szükséges beadni és a lezajlott fázis 3 klinikai
+                    teszt eredményei alapján, a teljes vizsgált populációra nézve 94 százalékos védelmet nyújtott
+                    covid-megbetegedés ellen.
+                    A súlyos megbetegedés ellen 100 százalékban védelmet nyújtott.(forrás:<a
+                        href="https://portfolio.hu/ " target="_blanc">portfolio.hu</a>)
                 </p>
             </div>
             <div class="col-sm-6 col-lg-3">
                 <img src="img/az.jpg" alt="AstraZeneca/Oxford vakcina" class="img-fluid img-thumbnail">
                 <h3>AstraZeneca/Oxford vakcina</h3>
-                <p>Az AstraZeneca és az Oxford Egyetem által közösen fejlesztett brit vakcina szintén a modern vakcinatechnológiák egyik képviselője, de nem mRNS-vakcina, hanem úgynevezett vektorvakcina. 
-                    A technológia lényege, hogy egy módosított, sokszorozódásra nem képes vírusba (ez esetben egy csimpánz adenovírusba) ütetve juttatják be a koronavírus tüskefehérjéjét kódoló gént. Az immunrendszerünk a koronavírus 
-                    tüskefehérjéjét kódoló gént bejuttató vírus (vektor) ellen is fellép, és kialakít védelmet.(forrás:<a href="https://portfolio.hu/ " target="_blanc">portfolio.hu</a>) </p>
+                <p>Az AstraZeneca és az Oxford Egyetem által közösen fejlesztett brit vakcina szintén a modern
+                    vakcinatechnológiák egyik képviselője, de nem mRNS-vakcina, hanem úgynevezett vektorvakcina.
+                    A technológia lényege, hogy egy módosított, sokszorozódásra nem képes vírusba (ez esetben egy
+                    csimpánz adenovírusba) ütetve juttatják be a koronavírus tüskefehérjéjét kódoló gént. Az
+                    immunrendszerünk a koronavírus
+                    tüskefehérjéjét kódoló gént bejuttató vírus (vektor) ellen is fellép, és kialakít
+                    védelmet.(forrás:<a href="https://portfolio.hu/ " target="_blanc">portfolio.hu</a>) </p>
             </div>
             <div class="col-sm-6 col-lg-3">
                 <img src="img/sp.jpg" alt="Szputnyik V vakcina" class="img-fluid img-thumbnail">
                 <h3>Szputnyik V vakcina</h3>
-                <p>A Szputnyik V vakcina az első orosz koronavírus-vakcina, amellyel Oroszországban már augusztus óta oltják a frontvonalbeli dolgozókat, eddig mintegy 800 ezer főt a Bloomberg adatai szerint.
+                <p>A Szputnyik V vakcina az első orosz koronavírus-vakcina, amellyel Oroszországban már augusztus óta
+                    oltják a frontvonalbeli dolgozókat, eddig mintegy 800 ezer főt a Bloomberg adatai szerint.
 
-                    A Szputnyik V vakcina szintén egy modern technológián alapuló vektorvakcina. Az orosz Gamaleya Intézet (Gamaleya National Center of Epidemiology and Microbiology) fejlesztette, 
-                    a vakcina két dózisában két különböző humán adenovírus-vektort alkalmaznak (Ad5 és Ad26). Mivel a vektorvakcinák hatékonyságánál fontos, hogy egy olyan vírus legyen a vektor, amellyel nagy valószínűséggel még nem 
-                    találkozott a beoltott személy, különben nem hatásos a vakcina, így a kétféle vírus alkalmazásával mennek biztosra.(forrás:<a href="https://portfolio.hu/ " target="_blanc">portfolio.hu</a>) </p>
+                    A Szputnyik V vakcina szintén egy modern technológián alapuló vektorvakcina. Az orosz Gamaleya
+                    Intézet (Gamaleya National Center of Epidemiology and Microbiology) fejlesztette,
+                    a vakcina két dózisában két különböző humán adenovírus-vektort alkalmaznak (Ad5 és Ad26). Mivel a
+                    vektorvakcinák hatékonyságánál fontos, hogy egy olyan vírus legyen a vektor, amellyel nagy
+                    valószínűséggel még nem
+                    találkozott a beoltott személy, különben nem hatásos a vakcina, így a kétféle vírus alkalmazásával
+                    mennek biztosra.(forrás:<a href="https://portfolio.hu/ " target="_blanc">portfolio.hu</a>) </p>
             </div>
             <div class="col-sm-6 col-lg-3">
                 <img src="img/si.jpeg" alt="Sinopharm vakcina" class="img-fluid img-thumbnail">
                 <h3>Sinopharm vakcina</h3>
-                <p>A kínai vakcinafejlesztések közül kettő jár az élen, amelyeket már Kínán kívül is elkezdtek tesztelni és alkalmazni, az egyik a Sinopharm készítménye.
+                <p>A kínai vakcinafejlesztések közül kettő jár az élen, amelyeket már Kínán kívül is elkezdtek tesztelni
+                    és alkalmazni, az egyik a Sinopharm készítménye.
 
-                    A kínai állami Sinopharm két vakcinát is fejleszt, mind a kettő inaktivált vírust alkalmazó „hagyományos” technológia. A vállalat december végén közölte, hogy a fázis 3 tesztek során 79 százalékos 
-                    hatékonyságot mértek, míg az Egyesült Arab Emirátusokban, ahol 31 ezer főn tesztelték, 86 százalékos hatékonyságról számoltak be és súlyos mellékhatásokat nem jegyeztek fel. A vakcinával már hónapokkal ezelőtt 
-                    megindult az oltás Kínában, eddig közel 1 millió fő kapta meg. Kínán kívül az Egyesült Arab Emírségek, Bahrein, Egyiptom, Irak, Jordánia, a Seychelle-szigetek és Pakisztán engedélyezte a Sinopharm vakcináját.(forrás:<a href="https://portfolio.hu/ " target="_blanc">portfolio.hu</a>)</p>
+                    A kínai állami Sinopharm két vakcinát is fejleszt, mind a kettő inaktivált vírust alkalmazó
+                    „hagyományos” technológia. A vállalat december végén közölte, hogy a fázis 3 tesztek során 79
+                    százalékos
+                    hatékonyságot mértek, míg az Egyesült Arab Emirátusokban, ahol 31 ezer főn tesztelték, 86 százalékos
+                    hatékonyságról számoltak be és súlyos mellékhatásokat nem jegyeztek fel. A vakcinával már hónapokkal
+                    ezelőtt
+                    megindult az oltás Kínában, eddig közel 1 millió fő kapta meg. Kínán kívül az Egyesült Arab
+                    Emírségek, Bahrein, Egyiptom, Irak, Jordánia, a Seychelle-szigetek és Pakisztán engedélyezte a
+                    Sinopharm vakcináját.(forrás:<a href="https://portfolio.hu/ " target="_blanc">portfolio.hu</a>)</p>
             </div>
             <div class="col-sm-6 col-lg-3">
                 <img src="img/cs.jpg" alt="CanSino" class="img-fluid img-thumbnail">
                 <h3>CanSino vakcina</h3>
-                <p>Egyadagos, nem igényel mélyhűtőt a CanSino kínai vakcina. A második, Magyarországon engedélyezett kínai oltás Convidecia márkanéven kerül forgalomba.
-                    A vakcinát eddig – Magyarországon kívül - Kínában, Pakisztánban és Mexikóban engedélyezték. Ez egyben azt is jelenti, hogy a Sinopharm vakcinája után ez a második kínai Covid-19 elleni oltóanyag, amely zöld utat kap Magyarországon.
-                    A vakcinát fejlesztő céggel kapcsolatos érdekesség, hogy a védőoltást a Pekingi Biotechnológiai Intézettel és a Katonai Orvosi Tudományok Akadémiájával közösen fejlesztették. A CanSinoBIO volt a világon az első Covid-19 elleni vakcinát 
-                    fejlesztő cég, ami humán klinikai vizsgálatokat kezdett 2020 márciusában.(forrás:<a href="https://www.egeszsegkalauz.hu/betegsegek/fertozo-betegsegek/koronavirus-ezt-kell-tudni-az-uj-kinai-cansino-vakcinarol/sz7es7w " target="_blanc">egeszsegkalauz.hu</a>)
+                <p>Egyadagos, nem igényel mélyhűtőt a CanSino kínai vakcina. A második, Magyarországon engedélyezett
+                    kínai oltás Convidecia márkanéven kerül forgalomba.
+                    A vakcinát eddig – Magyarországon kívül - Kínában, Pakisztánban és Mexikóban engedélyezték. Ez
+                    egyben azt is jelenti, hogy a Sinopharm vakcinája után ez a második kínai Covid-19 elleni oltóanyag,
+                    amely zöld utat kap Magyarországon.
+                    A vakcinát fejlesztő céggel kapcsolatos érdekesség, hogy a védőoltást a Pekingi Biotechnológiai
+                    Intézettel és a Katonai Orvosi Tudományok Akadémiájával közösen fejlesztették. A CanSinoBIO volt a
+                    világon az első Covid-19 elleni vakcinát
+                    fejlesztő cég, ami humán klinikai vizsgálatokat kezdett 2020 márciusában.(forrás:<a
+                        href="https://www.egeszsegkalauz.hu/betegsegek/fertozo-betegsegek/koronavirus-ezt-kell-tudni-az-uj-kinai-cansino-vakcinarol/sz7es7w "
+                        target="_blanc">egeszsegkalauz.hu</a>)
                 </p>
 
             </div>
             <div class="col-sm-6 col-lg-3">
                 <img src="img/csh.jpeg" alt="CoviShield" class="img-fluid img-thumbnail">
                 <h3>CoviShield vakcina</h3>
-                <p>A Covishield az Oxford-AstraZeneca által kifejlesztett vakcinának a világ legnagyobb oltóanyaggyártója, a ’Serum Institute of India’ elnevezésű indiai vállalat által helyben gyártott változata. Állításuk szerint havonta több mint 50 millió vakcinadózist állítanak elő.
-                    A vakcina egy csimpánzoktól származó, közönséges megfázást okozó vírus (közismert nevén egy adenovírus) legyengített változatából készül, melyet úgy módosítottak, hogy jobban hasonlítson a koronavírusra - ugyanakkor nem okozhat betegséget.
-                    Amikor a vakcinát beadják valakinek, az arra készteti az immunrendszert, hogy antitesteket kezdjen termelni, és felkészíti a szervezetet a koronavírus-fertőzés elleni támadásra.
-                    A vakcina két dózisban kerül beadásra, 4-12 hét különbséggel. Biztonságosan tárolható 2 °C és 8 °C közötti hőmérsékleten...(forrás:<a href="https://www.webbeteg.hu/cikkek/fertozo_betegseg/26717/covishield-mit-tudunk-india-covid-19-elleni-vedooltasarol" target="_blanc">webbeteg.hu</a>)</p>
+                <p>A Covishield az Oxford-AstraZeneca által kifejlesztett vakcinának a világ legnagyobb
+                    oltóanyaggyártója, a ’Serum Institute of India’ elnevezésű indiai vállalat által helyben gyártott
+                    változata. Állításuk szerint havonta több mint 50 millió vakcinadózist állítanak elő.
+                    A vakcina egy csimpánzoktól származó, közönséges megfázást okozó vírus (közismert nevén egy
+                    adenovírus) legyengített változatából készül, melyet úgy módosítottak, hogy jobban hasonlítson a
+                    koronavírusra - ugyanakkor nem okozhat betegséget.
+                    Amikor a vakcinát beadják valakinek, az arra készteti az immunrendszert, hogy antitesteket kezdjen
+                    termelni, és felkészíti a szervezetet a koronavírus-fertőzés elleni támadásra.
+                    A vakcina két dózisban kerül beadásra, 4-12 hét különbséggel. Biztonságosan tárolható 2 °C és 8 °C
+                    közötti hőmérsékleten...(forrás:<a
+                        href="https://www.webbeteg.hu/cikkek/fertozo_betegseg/26717/covishield-mit-tudunk-india-covid-19-elleni-vedooltasarol"
+                        target="_blanc">webbeteg.hu</a>)</p>
             </div>
             <div class="col-sm-6 col-lg-3">
                 <img src="img/olt.jpg" alt="Rékási László" class="img-fluid img-thumbnail">
                 <h3>Most pénteken...</h3>
-                <p>Dr. Adamecz Imre háziorvos rendelőjében, délelőtt 10 órakor, Rékási László megkapja az első adag vakcináját, ami előre láthatólag az AstraZeneca vakcinája lesz.
-                    Mostanság sokat hallani a mellékhatásairól, dehát minek nincs ma mellékhatása?!... "Csak amiatt szerettem volna másik fajta oltást, hogy ne kelljen 3 hónapot várni a második adagra. Viszont ha most ez jutott, akkor nem válogatok, beoltatom magam..." - nyilatkozott
-                honlapunknak Rékási László // FRISS: Bizonyára sokan hallották, hogy továbbra is kételyek merültek fel az AstraZeneca-vakcinával kapcsolatban – emelte ki Müller Cecília, utalva az EMA tisztviselőjének megszólalására, majd arra, hogy az EMA még aznap közölte, hogy a 
-                vizsgálatok még nem értek véget. Az országos tiszti főorvos kiemelte, amint megfogalmazzák a hivatalos állásfoglalást – ezt ma délutánra vagy legkésőbb csütörtök reggelre becsülte –, attól függően döntenek a további hazai alkalmazásról... </p>
+                <p>Dr. Adamecz Imre háziorvos rendelőjében, délelőtt 10 órakor, Rékási László megkapja az első adag
+                    vakcináját, ami előre láthatólag az AstraZeneca vakcinája lesz.
+                    Mostanság sokat hallani a mellékhatásairól, dehát minek nincs ma mellékhatása?!... "Csak amiatt
+                    szerettem volna másik fajta oltást, hogy ne kelljen 3 hónapot várni a második adagra. Viszont ha
+                    most ez jutott, akkor nem válogatok, beoltatom magam..." - nyilatkozott
+                    honlapunknak Rékási László // FRISS: Bizonyára sokan hallották, hogy továbbra is kételyek merültek
+                    fel az AstraZeneca-vakcinával kapcsolatban – emelte ki Müller Cecília, utalva az EMA
+                    tisztviselőjének megszólalására, majd arra, hogy az EMA még aznap közölte, hogy a
+                    vizsgálatok még nem értek véget. Az országos tiszti főorvos kiemelte, amint megfogalmazzák a
+                    hivatalos állásfoglalást – ezt ma délutánra vagy legkésőbb csütörtök reggelre becsülte –, attól
+                    függően döntenek a további hazai alkalmazásról... </p>
             </div>
         </article>
-        
+        </section>
     </main>
     <script src="bootstrap/js/jquery-3.5.1.min.js"></script>
     <script src="bootstrap/js/bootstrap.min.js"></script>
 
+    <section id="regiszt" class="regiszt">
     <div class="felso">
+        <b>
+            <p id="hiba"></p>
+        </b>
         <label for="nev">Név:</label>
         <input type="text" name="" id="nev">
         <label for="szulev">Születési év:</label>
         <input type="text" name="" id="szulev"><br>
         <label for="van">Van krónikus betegségem: </label>
-        <input type="checkbox" name="" id="van">
+        <input type="checkbox" name="" id="van"><br>
         <label for="eu">Egészségügyben dolgozom: </label>
         <input type="checkbox" name="" id="eu"><br>
         <label for="iod">Idős otthonban dolgozom: </label>
-        <input type="checkbox" name="" id="iod">
+        <input type="checkbox" name="" id="iod"><br>
         <label for="iol">Idősotthonban lakom: </label>
         <input type="checkbox" name="" id="iol"><br>
         <label for="covid">Korábban már elkapta a vírust: </label>
-        <input type="checkbox" name="" id="covid">
+        <input type="checkbox" name="" id="covid"><br>
         <label for="beoltva">Már beoltottak: </label>
         <input type="checkbox" name="" id="beoltva"><br>
-        <button onclick="felvesz()">Regisztrálok!</button>
+        <button onclick="felvesz()">Regisztrálok!</button><br><br>
         <p>(Amennyiben a regisztrált közben megkapja az oltást, egy kattintással átrakjuk a beoltottak listájába!)</p>
-        <p id="hiba"></p>
+    </div>
+    <div class="tarto">
+        <div class="bal">
+            <h2>Regisztráltak listája:</h2>
+            <div id="ki"></div>
         </div>
-        <div class="tarto">
-            <div class="bal">
-                <h2>Regisztráltak listája:</h2>           
-                <div id="ki"></div>
-            </div>
-            <div class="jobb">
-                <h2>Beoltottak listája:</h2>
-                <div id="be"></div>
-            </div>
+        <div class="jobb">
+            <h2>Beoltottak listája:</h2>
+            <div id="be"></div>
         </div>
+    </div>
+    </section>
 
-    
+    <hr>
+    <section id="hozzaszol" class="hozzaszol">
+    <div class="hozzaszolas">
+        <label for="neve">A neved:</label>
+        <input type="text" id="neve"><br>
+        <label for="szovege">Hozzászólás:</label><br>
+        <textarea name="" id="szovege" cols="60" rows="5"></textarea><br>
+        <button onclick="hozzaszol()">OK</button>
+
+        <div id="ki2"></div>
+        <script>
+            var tomb = [];
+            var ki2 = document.getElementById("ki2");
+            function Hsz(neve, szovege, ido) {
+                this.neve = neve;
+                this.szovege = szovege;
+                this.ido = ido;
+            }
+            function hozzaszol() {
+                var neve = document.getElementById("neve");
+                var szovege = document.getElementById("szovege");
+                var datum = new Date();
+                hsz = new Hsz(neve.value, szovege.value, datum.toLocaleString());
+                neve.value = "";
+                szovege.value = "";
+                tomb.push(hsz);
+                kiirja();
+
+            }
+            function kiirja() {
+                ki2.innerHTML = "";
+                for (var i = 0; i < tomb.length; i++) {
+                    var hsz = tomb[i];
+                    ki2.innerHTML += "<p>" + hsz.neve + " : " + hsz.ido + "</p><p class='szoveg'> " + hsz.szovege + "</p>";
+                }
+            }
+            kiirja();
+        </script>
+        </section>
+    </div>
+
+
     <div>
         <hr>
         <p class="also">Az oldalt készítette: [ rekalaca ] 2021. /Rékási László 113c / esti</p>
     </div>
 
-    
+
 </body>
 
 </html>

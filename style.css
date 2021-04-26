@@ -6,11 +6,12 @@ header{
 }
 
 h1{
-    background-color: rgba(248, 248, 248, 0.50);
+    background-color: rgba(248, 248, 248, 0.20);
     margin-top: 80px;
     padding-left: 11rem;   
     font-family: Open Sans;
-    color: rgb(240, 12, 12);
+    font-size: 50px;
+    color: rgb(167, 145, 21);
     font-weight: bold; 
 }
 
@@ -70,6 +71,7 @@ hr{
     padding: 6px;   
     border: 3px solid blue;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: burlywood;
 }
 .jobb{
     
@@ -78,6 +80,7 @@ hr{
     padding: 6px;
     border: 3px solid blue;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: burlywood;
 }
 .tarto{
     margin: 5px auto;
@@ -92,4 +95,31 @@ hr{
     margin: 10px auto;
     padding: 6px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: burlywood;
+}
+
+.szoveg{
+    width:60%;
+    border: 1px solid blue;
+    border-radius: 5px;
+    background-color: antiquewhite;
+}
+
+.hozzaszolas{
+    width: 60%;
+    border: 3px solid blue;
+    margin: 10px auto;
+    padding: 16px;
+    background-color: burlywood;
+}
+
+.menu{
+    color: cornsilk;
+    font-family: Open Sans;
+    font-size: 18px;
+        
+}
+
+a{
+    color: rgb(167, 145, 21);
 }

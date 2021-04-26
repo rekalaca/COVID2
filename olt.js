@@ -11,7 +11,6 @@ function Regisztralt(nev, szulev, van, eu, iod, iol, covid, beoltva, kateg) {
     this.beoltva = beoltva;
     this.kor = 2021 - this.szulev;
     this.kateg = kateg;
-//Nem tudom, hogy mit nem írok jól, de egyszer jól írja a kategóriákat, aztán csak a 4. kategóriát...
     
     if(this.kor>65 && this.van || this.eu){
         this.kateg = 1;
@@ -19,13 +18,13 @@ function Regisztralt(nev, szulev, van, eu, iod, iol, covid, beoltva, kateg) {
     if(this.iol && this.van){
         this.kateg = 2;
     }
-    if(this.iol || this.iod){
+    if(this.iol && !this.van || this.iod){
         this.kateg = 3;
     }
-    if(this.kor<=65 || this.van){
+    if(this.kor<=65 && this.van && !this.iol){
         this.kateg = 4;
     }
-    if(this.covid){
+    if(this.covid || this.kor<=65 && !this.van && !this.iol && !this.iod && !this.eu){
         this.kateg = 5;
     }
 
@@ -47,9 +46,9 @@ function felvesz() {
     var jo = true;
 
 
-    if (nev == "" || szulev == "") {
+    if (nev == "" || szulev == "" || 1899>szulev || szulev>2021) {
         jo = false;
-        hiba.innerHTML = "*** Nem töltötted ki a nevet vagy a születési dátumot! ***"
+        hiba.innerHTML = "*** Nem töltötted ki a nevet vagy a születési dátumot, vagy hibás adatot adtál meg!! ***"
     }
 
 
