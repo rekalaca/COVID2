@@ -103,9 +103,9 @@ hr{
 }
 
 .szoveg{
-    width:50%;
+    width:18%;
     border: 1px solid blue;
-    border-radius: 5px;
+    border-radius: 2px;
     background-color: antiquewhite;
     padding: 3px;
 }
