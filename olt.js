@@ -76,13 +76,13 @@ function kiir() {
         var regisztralt = regisztraltak[i];
         var sor = document.createElement("tr")
         var cella = document.createElement("td")
-        cella.innerHTML = regisztralt.nev + " / ";
+        cella.innerHTML = regisztralt.nev + " ";
         sor.appendChild(cella);
         var cella = document.createElement("td")
-        cella.innerHTML = regisztralt.kor + " éves / ";
+        cella.innerHTML = regisztralt.kor + " éves ";
         sor.appendChild(cella);
         var cella = document.createElement("td")
-        cella.innerHTML = regisztralt.kateg + " kategória";
+        cella.innerHTML = regisztralt.kateg + ".kategória";
         sor.appendChild(cella);
         sor.onclick = function () { atrak(i) };
         tablazat.appendChild(sor);
@@ -113,13 +113,13 @@ function elkiir() {
         var regisztralt = oltottak[i];
         var sor = document.createElement("tr")
         var cella = document.createElement("td")
-        cella.innerHTML = regisztralt.nev + " / ";
+        cella.innerHTML = regisztralt.nev + " ";
         sor.appendChild(cella);
         var cella = document.createElement("td")
-        cella.innerHTML = regisztralt.kor + " éves / ";
+        cella.innerHTML = regisztralt.kor + " éves ";
         sor.appendChild(cella);
         var cella = document.createElement("td")
-        cella.innerHTML = regisztralt.kateg + " kategória";
+        cella.innerHTML = regisztralt.kateg + ".kategória";
         sor.appendChild(cella);
         tablazat.appendChild(sor);
 

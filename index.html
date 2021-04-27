@@ -10,8 +10,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link
-        href="https://fonts.googleapis.com/css2?family=Anton&family=Lato&family=Montserrat&family=Open+Sans&display=swap"
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Lato&family=Montserrat&family=Open+Sans&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <script src="olt.js"></script>
@@ -20,9 +19,10 @@
 <body>
     
     <header class="container">
+    <div class="col-12">
         <div class="row">
             <div class="menu">
-                <h1 class="d-none d-sm-block">Koronavírus info</h1>
+                <h1>Koronavírus info</h1>
                 <li><a href="#vakcinak">Elérhető vakcinák</a></li>
                 <li><a href="#regiszt">Regisztráció</a></li>
                 <li><a href="#hozzaszol">Szólj hozzá!</a></li>
@@ -30,6 +30,7 @@
                 
             </div>
         </div>
+    </div>
     </header>
 
     <main class="container ">
@@ -184,13 +185,14 @@
 
     <section id="regiszt" class="regiszt">
     <div class="felso">
+        <div class="col-12">
         <b>
             <p id="hiba"></p>
         </b>
-        <label for="nev">Név:</label>
-        <input type="text" name="" id="nev">
-        <label for="szulev">Születési év:</label>
-        <input type="text" name="" id="szulev"><br>
+        <label for="nev">Név:</label><br>
+        <input type="text" name="" id="nev"><br><br>
+        <label for="szulev">Születési év:</label><br>
+        <input type="text" name="" id="szulev"><br><br>
         <label for="van">Van krónikus betegségem: </label>
         <input type="checkbox" name="" id="van"><br>
         <label for="eu">Egészségügyben dolgozom: </label>
@@ -205,8 +207,10 @@
         <input type="checkbox" name="" id="beoltva"><br>
         <button onclick="felvesz()">Regisztrálok!</button><br><br>
         <p>(Amennyiben a regisztrált közben megkapja az oltást, egy kattintással átrakjuk a beoltottak listájába!)</p>
+        </div>
     </div>
     <div class="tarto">
+        <div class="col-12">
         <div class="bal">
             <h2>Regisztráltak listája:</h2>
             <div id="ki"></div>
@@ -215,16 +219,18 @@
             <h2>Beoltottak listája:</h2>
             <div id="be"></div>
         </div>
+        </div>
     </div>
     </section>
 
     <hr>
     <section id="hozzaszol" class="hozzaszol">
+    <div class="col-12">
     <div class="hozzaszolas">
-        <label for="neve">A neved:</label>
+        <label for="neve">A neved:</label><br>
         <input type="text" id="neve"><br>
         <label for="szovege">Hozzászólás:</label><br>
-        <textarea name="" id="szovege" cols="60" rows="5"></textarea><br>
+        <textarea name="" id="szovege" cols="30" rows="5"></textarea><br>
         <button onclick="hozzaszol()">OK</button>
 
         <div id="ki2"></div>
@@ -256,13 +262,15 @@
             }
             kiirja();
         </script>
+        </div>
         </section>
     </div>
 
 
-    <div>
+    <div class="col-12">
         <hr>
-        <p class="also">Az oldalt készítette: [ rekalaca ] 2021. /Rékási László 113c / esti</p>
+        <p class="also">Az oldalt készítette: [ rekalaca ] 2021. <br>
+        Rékási László  - 113c / esti</p>
     </div>
 
 
