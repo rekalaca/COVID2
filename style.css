@@ -103,11 +103,12 @@ hr{
 }
 
 .szoveg{
-    width:55%;
+    width:85%;
     border: 1px solid blue;
     border-radius: 2px;
     background-color: antiquewhite;
     padding: 3px;
+    text-align: left;
 }
 
 .hozzaszolas{
