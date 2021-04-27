@@ -94,7 +94,7 @@ hr{
 
 }
 .felso{
-    width:60%;
+    width:95%;
     border: 3px solid blue;
     margin: 10px auto;
     padding: 3px;
@@ -103,7 +103,7 @@ hr{
 }
 
 .szoveg{
-    width:85%;
+    width:95%;
     border: 1px solid blue;
     border-radius: 2px;
     background-color: antiquewhite;
