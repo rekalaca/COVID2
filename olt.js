@@ -82,7 +82,7 @@ function kiir() {
         cella.innerHTML = regisztralt.kor + " éves ";
         sor.appendChild(cella);
         var cella = document.createElement("td")
-        cella.innerHTML = regisztralt.kateg + ".kategória";
+        cella.innerHTML = regisztralt.kateg + ". kategória";
         sor.appendChild(cella);
         sor.onclick = function () { atrak(i) };
         tablazat.appendChild(sor);
@@ -119,7 +119,7 @@ function elkiir() {
         cella.innerHTML = regisztralt.kor + " éves ";
         sor.appendChild(cella);
         var cella = document.createElement("td")
-        cella.innerHTML = regisztralt.kateg + ".kategória";
+        cella.innerHTML = regisztralt.kateg + " . kategória";
         sor.appendChild(cella);
         tablazat.appendChild(sor);
 
