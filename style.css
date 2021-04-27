@@ -103,11 +103,11 @@ hr{
 }
 
 .szoveg{
-    width:100%;
+    width:50%;
     border: 1px solid blue;
     border-radius: 5px;
     background-color: antiquewhite;
-    padding: 4px;
+    padding: 3px;
 }
 
 .hozzaszolas{
@@ -116,6 +116,11 @@ hr{
     margin: 10px auto;
     padding: 10px;
     background-color: burlywood;
+}
+
+.hozzaszol{
+    width: 100%;
+    background-color: rgb(96, 94, 221);
 }
 
 .menu{
